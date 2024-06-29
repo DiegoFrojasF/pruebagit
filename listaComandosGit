@@ -1,0 +1,15 @@
+* `git init`: Inicializa un nuevo repositorio Git
+* `git clone`: Clona un repositorio existente
+* `git add`: Agrega cambios al área de preparación
+* `git commit -m`: Confirma los cambios preparados
+* `git status`: Muestra el estado del repositorio
+* `git log`: Muestra el historial de commits
+* `git push`: Envía los commits al repositorio remoto
+* `git pull`: Descarga y fusiona cambios del repositorio remoto
+* `git branch`: Lista o crea ramas
+* `git checkout`: Cambia a una rama existente
+* `git merge`: Fusiona ramas
+* `git diff`: Muestra las diferencias entre cambios
+* `git show`: Muestra los cambios de un commit específico
+* `git restore`: Descarta cambios en archivos
+* `git reset`: Deshace commits (con precaución)
