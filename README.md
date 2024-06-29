@@ -1,1 +1,1 @@
-Esta es la descripción del repositorio.
+Tutorial de ayuda sobre Git y GitHub
