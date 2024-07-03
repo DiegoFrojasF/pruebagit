@@ -1,0 +1,31 @@
+Navegación:
+ * pwd (Print Working Directory): Muestra el directorio actual.
+   * Ejemplo: pwd podría mostrar /home/usuario.
+ * cd (Change Directory): Cambia al directorio especificado.
+   * Ejemplo: cd documentos cambia al directorio "documentos" dentro del directorio actual.
+ * ls (List): Lista los archivos y directorios en el directorio actual.
+   * Ejemplo: ls -l lista los archivos con detalles como permisos, tamaño y fecha de modificación.
+Manipulación de archivos:
+ * cp (Copy): Copia archivos y directorios.
+   * Ejemplo: cp archivo.txt copia.txt crea una copia de "archivo.txt" llamada "copia.txt".
+ * mv (Move): Mueve o renombra archivos y directorios.
+   * Ejemplo: mv archivo.txt carpeta/ mueve "archivo.txt" a la carpeta "carpeta".
+ * rm (Remove): Elimina archivos y directorios.
+   * Ejemplo: rm archivo.txt elimina "archivo.txt".
+ * mkdir (Make Directory): Crea un nuevo directorio.
+   * Ejemplo: mkdir nueva_carpeta crea un directorio llamado "nueva_carpeta".
+ * rmdir (Remove Directory): Elimina un directorio vacío.
+   * Ejemplo: rmdir carpeta_vacia elimina "carpeta_vacia" si está vacía.
+ * touch: Crea un archivo vacío o actualiza su fecha de modificación.
+   * Ejemplo: touch archivo.txt crea "archivo.txt" si no existe o actualiza su fecha si existe.
+Información del sistema:
+ * uname (Unix Name): Muestra información del sistema como el nombre del kernel, nombre del host, etc.
+   * Ejemplo: uname -a muestra toda la información del sistema.
+ * df (Disk Free): Muestra el espacio libre en disco en cada sistema de archivos montado.
+   * Ejemplo: df -h muestra el espacio libre en formato legible por humanos (MB, GB).
+ * du (Disk Usage): Muestra el espacio en disco utilizado por archivos y directorios.
+   * Ejemplo: du -sh carpeta muestra el espacio total utilizado por "carpeta" y su contenido.
+ * top: Muestra los procesos activos en tiempo real, ordenados por uso de CPU.
+ * ps (Process Status): Muestra una lista de los procesos en ejecución.
+   * Ejemplo: ps aux lista todos los procesos con detalles como usuario, PID y comando.
+
