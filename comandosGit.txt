@@ -1,0 +1,30 @@
+Comandos Esenciales:
+
+git init: Inicializa un nuevo repositorio Git en el directorio actual.
+git clone <url>: Clona un repositorio existente desde una URL remota a tu máquina local.
+git add <archivo>: Agrega cambios en un archivo específico al área de preparación (staging area) para el próximo commit.
+git add .: Agrega todos los cambios en el directorio actual al área de preparación.
+git commit -m "<mensaje>": Confirma los cambios preparados con un mensaje descriptivo.
+git status: Muestra el estado actual del repositorio, incluyendo archivos modificados, nuevos y preparados.
+git log: Muestra el historial de commits, con sus mensajes y detalles.
+git push: Envía los commits locales a un repositorio remoto.
+git pull: Descarga los cambios del repositorio remoto y los fusiona con tu rama local.
+Ramas (Branches):
+
+git branch: Lista todas las ramas en el repositorio.
+git branch <nombre>: Crea una nueva rama.
+git checkout <nombre>: Cambia a una rama existente.
+git merge <nombre>: Fusiona la rama especificada en la rama actual.
+Inspección y Comparación:
+
+git diff: Muestra las diferencias entre los cambios no preparados y la última versión confirmada.
+git diff --staged: Muestra las diferencias entre los cambios preparados y la última versión confirmada.
+git show <commit>: Muestra los cambios introducidos en un commit específico.
+Deshacer Cambios:
+
+git restore <archivo>: Descarta los cambios en un archivo específico.
+git restore --staged <archivo>: Descarta los cambios preparados en un archivo específico.
+git reset <commit>: Deshace los commits hasta el commit especificado (cuidado, puede perder cambios).
+Recursos Adicionales:
+
+Documentación de Git: https://git-scm.com/doc
